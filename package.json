@@ -1,0 +1,24 @@
+{
+  "name": "estudo-regex",
+  "version": "1.0.0",
+  "description": "Projeto de estudo sobre Expressões Regulares",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js src/",
+    "lint:fix": "eslint --ext .js src/ --fix"
+  },
+  "keywords": [
+    "regex",
+    "node-regex",
+    "expressão-regular"
+  ],
+  "author": "Tiago Santos Da Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0"
+  }
+}
